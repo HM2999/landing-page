@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-image: url(./img/back.jpg);
+    opacity: 0.9;
+}
+
+.medel {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.container {
+    display: grid;
+    justify-self: center;
+    grid-template-rows: 1fr 4fr;
+    height: 640px;
+    overflow: hidden;
+    width: 1208px;
+    border-radius: 10px;
+    background-image: url(./img/back.jpg);
+    box-shadow: 3px 3px 11px 1px rgba(87,87,87,0.6);
+}
+
+p {
+    margin: 0;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 40px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 60px;
+}
+
+.navbar {
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+}
+
+.logo {
+    padding: 10px;
+}
+
+#go {
+    padding-top: 10px;
+}
+
+.spac {
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+#bla {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+}
+
+#par {
+    font-size: 40px;
+    padding-top: 10%;
+    padding-left: 10px;
+}
+
+input {
+    display: block;
+    padding: 22px;
+    padding-left: 27px;
+    padding-right: 27px;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    background-color: rgba(255, 243, 47, 0.9);
+    border-radius: 4px;
+    color: #000000;
+    border: none;
+
+}
+
+
+/*
+#conterimg {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+}
+*/
+
+.shap {
+    width: 250px;
+    height: 450px;
+    position: absolute;
+}
+
+.a1 {
+    background-image: url("./img/yelloz.jpg");
+    left: 650px;
+    transform: rotate(-15deg);
+}
+
+.a2 {
+    background-image: url("./img/pow.jpeg");
+    left: 750px;
+}
+
+.a3 {
+    background-image: url("./img/rom.jpeg");
+    left: 850px;
+    width: 292px;
+    transform: rotate(3deg);
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(240, 234, 234);
+}
+
+a:hover {
+    color: rgba(255, 243, 47, 0.9);
+}
+
+#logo {
+    font-size: 30px;
+    font-family: 'Stick', sans-serif;
+}
+
+.em {
+ 
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes example {
+  0%   {transform: translateY(-300px);}
+  25%{transform: rotate(30deg);}
+50%{transform: rotate(-30deg);}
+  100% {transform: translateY(0px);
+  }
+}
+.a1{
+    animation-name: go;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes go {
+    0% { left: 2000px;};
+    100%{left: 650px;}
+}
+.a2{
+    animation-name: go;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes go {
+    0% { left: 2000px;};
+    100%{left: 750px;}
+}
+.a3{
+    animation-name: go;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes go {
+    0% { left: 2000px;};
+    100%{left: 850px;}
+}
