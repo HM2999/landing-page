@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+/* background image*/
+.colorB{
+background-color:rgb(13, 204, 242);
+padding-left: 0;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0 L350 0 Q250 240 320 320 Q 390 390 380 570 Q 373 620 420 700 L 0 700 Z ' stroke='none' fill='%23fff' /%3E%3C/svg%3E");
+}
+.alph{
+  background-color: rgba(255, 255, 255, 0.836);
+}
+/* end background image*/
+/*the container in hieght*/
+
+.kk{
+  height: 700px;
+}
+/* navbar style*/
+
+.nav-link{
+  padding: 0px !important
+}
+.logo{
+  font-size: 2rem;
+  font-weight: 300;
+  width: 150px;
+  text-transform: capitalize;
+  font-family: 'Bangers', cursive
+}
+/* horizantal nav*/
+
+.ww{
+  height: 600px;
+}
+
+.first{padding-top: 60px;
+padding-left: 0px;
+}
+nav a {
+  width: 70px;
+}
+
+.nav-d{
+width: 130px;
+}
+.color{
+  color: #dc3545;
+}
+.font-size{
+  font-size: 1.5em;
+  padding: 0px !important;
+  margin-top: 60px !important;
+}
+
+/*end of nav style*/
+.card{
+  border: none;
+}
+.row.align-items{
+  width: 30px;
+}
+.bb{
+  border-bottom:0.25px groove rgb(55, 202, 231);
+  border-right: none;
+}
+#big{
+  max-height: 321px;
+  max-width: 220px;
+  min-width: 210px;
+  min-height: 310px;
+}
+
+.pr{
+  font-size: large;
+  font-weight: 300;
+}
+#s1,#s2,#s3,#s4{
+  max-height: 85px;
+  max-width: 140px;
+  min-width: 83px;
+  min-height: 130px;
+  cursor: pointer;
+}
+p{    font-family: 'Roboto', sans-serif;}
